@@ -1,10 +1,13 @@
 import "./App.css";
+import { Landing, About, Products } from "./components";
 
 function App() {
   return (
-    <>
-      <h1>Jaksh Enterprise</h1>
-    </>
+    <div>
+      <Landing />
+      <About />
+      <Products />
+    </div>
   );
 }
 
